@@ -1,4 +1,33 @@
 /* common */
 body {
-    font-family: 'Sono', sans-serif;
+
+    font-family: 'Titillium Web', sans-serif;
+    background-color: white;
+
+}
+
+/* header */
+header {
+    display: flex;
+    background-color: black;
+    color: white;
+    padding-left: 5%;
+    padding-top: 2vw;
+    margin-right: 4%;
+    margin-left: 7%;
+    border-radius: 20px;
+
+
+}
+
+header a {
+    text-decoration: none;
+    color: white;
+    background-color: coral;
+    background-image: linear-gradient(coral, red);
+    border-radius: 20px;
+    padding: 10px;
+
+
+
 }
