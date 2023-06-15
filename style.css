@@ -39,15 +39,23 @@ header a {
 /*------------
      main 
  ------------*/
+main {
+    display: grid;
+    grid-template-columns: repeat(2, 5fr);
+    margin: 7%;
+}
+
 /* sideber */
 .sideber {
     background-color: black;
-    margin: 5%;
-    padding: 2%;
-    width: 10%;
+    margin-left: 10%;
+    padding: 5%;
+    width: 60%;
+    height: 20%;
     border-radius: 10px;
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    align-items: center;
 }
 
 .sideber a {
@@ -64,21 +72,26 @@ header a {
     border-radius: 5px;
     text-align: center;
     padding: 5%;
-    margin-bottom: 3%;
+    width: 85%;
+    height: 33%;
 }
 
 .sideber-button {
     background-image: linear-gradient(coral, red);
+    border: 2px solid white;
     border-radius: 5px;
     text-align: center;
     padding: 5%;
-    margin-bottom: 3%;
+    width: 85%;
+    height: 33%;
+
+
 }
 
 /* blogs */
 .blogs {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-column-gap: 2.5%;
     justify-content: center;
     justify-items: center;
